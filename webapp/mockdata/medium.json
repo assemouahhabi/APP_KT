@@ -1,0 +1,103 @@
+{
+  "milk": [{ 
+        "Anomalie": "Anomalies", 
+        "Nombre": 10, 
+        "Liste de gestion": "Facturation impossible à DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 21, 
+        "Liste de gestion": "Estimation à DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 34, 
+        "Liste de gestion": "Intégration à DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 90, 
+        "Liste de gestion": "Traitement post DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 6, 
+        "Liste de gestion": "Absence de DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 65,
+        "Liste de gestion": "Facturation impossible à DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 33,
+        "Liste de gestion": "Estimation à DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 12, 
+        "Liste de gestion": "Intégration à DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 76, 
+        "Liste de gestion": "Traitement post DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 22, 
+        "Liste de gestion": "Absence de DCF" 
+    },
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 87,
+        "Liste de gestion": "Facturation impossible à DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 56,
+        "Liste de gestion": "Estimation à DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 45, 
+        "Liste de gestion": "Intégration à DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 54, 
+        "Liste de gestion": "Traitement post DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 18, 
+        "Liste de gestion": "Absence de DCF" 
+    },
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 45,
+        "Liste de gestion": "Facturation impossible à DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 121,
+        "Liste de gestion": "Estimation à DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 75, 
+        "Liste de gestion": "Intégration à DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 64, 
+        "Liste de gestion": "Traitement post DCF" 
+    }, 
+    { 
+        "Anomalie": "Anomalies", 
+        "Nombre": 86, 
+        "Liste de gestion": "Absence de DCF" 
+    }
+]
+}

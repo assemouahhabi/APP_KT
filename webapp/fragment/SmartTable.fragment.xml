@@ -1,0 +1,37 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:uxap="sap.uxap"
+	xmlns:core="sap.ui.core"
+	xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
+	xmlns:smartTable="sap.ui.comp.smarttable"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	controllerName="project.controller.SmartTable"
+	height="100%">
+
+		<!-- use this to make the table occupy the available screen height -->
+		<VBox fitContainer="true">
+			<smartTable:SmartTable id="LineItemsSmartTable" entitySet="Order_Details" UseExportToExcel="true" smartFilterId="smartFilterBar" showFullScreenButton="true" tableType="Table" useExportToExcel="false" beforeExport="onBeforeExport" useVariantManagement="false" useTablePersonalisation="true" header="Product Items" showRowCount="true" persistencyKey="SmartTableAnalytical_Explored" enableAutoBinding="true" class="sapUiResponsiveContentPadding" enableAutoColumnWidth="true" editTogglable="true" app:useSmartToggle="true" initiallyVisibleFields="OrderID,ProductID,Quantity,UnitPrice,Discount">
+            	<!-- layout data used to make the table growing but the filter bar fixed --> 	
+				    <smartTable:layoutData>
+					    <FlexItemData growFactor="1" baseSize="0%"/>
+				    </smartTable:layoutData>
+					<smartTable:customToolbar>
+			<OverflowToolbar design="Transparent">
+				<ToolbarSpacer/>
+				<SegmentedButton tooltip="Segmented Button">
+					<items>
+						<SegmentedButtonItem icon="sap-icon://hide" tooltip="hide" press="onHide"/>
+						<SegmentedButtonItem icon="sap-icon://show" tooltip="show" press="onShow"/>
+					</items>
+				</SegmentedButton>
+				<OverflowToolbarButton icon="sap-icon://sort" tooltip="Sort" text="Sort" press="onSort"/>
+				<OverflowToolbarButton icon="sap-icon://excel-attachment" tooltip="Sort" text="Sort" press="onExport"/>
+				<OverflowToolbarButton icon="sap-icon://filter" tooltip="Filter" text="Filter" press="onFilter"/>
+				<OverflowToolbarButton icon="sap-icon://synchronize" tooltip="Group" text="Group" press="onSync"/>
+			</OverflowToolbar>
+		</smartTable:customToolbar>
+            </smartTable:SmartTable>
+		</VBox>
+</core:FragmentDefinition>
+

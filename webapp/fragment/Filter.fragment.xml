@@ -1,0 +1,31 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
+	xmlns:smartTable="sap.ui.comp.smarttable"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	height="50%">
+		<!-- use this to make the table occupy the available screen height -->
+			<smartFilterBar:SmartFilterBar id="smartFilterBar" smartVariant="__SVM01" useToolbar="false" liveMode="false" considerSelectionVariants="false" entitySet="Order_Details" persistencyKey="SmartFilter_Explored" enableBasicSearch="false" >
+				<smartFilterBar:controlConfiguration>
+					<smartFilterBar:ControlConfiguration key="OrderID" visibleInAdvancedArea="true">
+                    	<smartFilterBar:defaultFilterValues>
+							<!--<smartFilterBar:SelectOption low="0">
+							</smartFilterBar:SelectOption>-->
+						</smartFilterBar:defaultFilterValues>
+					</smartFilterBar:ControlConfiguration>
+					<smartFilterBar:ControlConfiguration key="ProductID" visibleInAdvancedArea="true">
+                    	<smartFilterBar:defaultFilterValues>
+							<!--<smartFilterBar:SelectOption low="0">
+							</smartFilterBar:SelectOption>-->
+						</smartFilterBar:defaultFilterValues>
+					</smartFilterBar:ControlConfiguration>
+				</smartFilterBar:controlConfiguration>
+				<!-- layout data used to make the table growing but the filter bar fixed -->
+				<smartFilterBar:layoutData>
+					<FlexItemData shrinkFactor="0"/>
+				</smartFilterBar:layoutData>
+			</smartFilterBar:SmartFilterBar>
+</core:FragmentDefinition>
+
